@@ -45,6 +45,13 @@ All colors MUST be HSL.
     --illustration-bg: 177 70% 65%;
     --tag-bg: 220 14% 96%;
     --tag-text: 220 14% 18%;
+    --problem-bg: 336 100% 97%;
+    --problem-border: 336 84% 90%;
+    --solution-bg: 336 100% 97%;
+    --solution-border: 336 84% 90%;
+    --error-red: 0 84% 60%;
+    --success-green: 142 76% 36%;
+    --scattered-blue: 177 70% 65%;
 
     --radius: 1rem;
 
@@ -102,6 +109,13 @@ All colors MUST be HSL.
     --illustration-bg: 177 70% 65%;
     --tag-bg: 220 14% 15%;
     --tag-text: 0 0% 98%;
+    --problem-bg: 220 14% 12%;
+    --problem-border: 220 14% 20%;
+    --solution-bg: 220 14% 12%;
+    --solution-border: 220 14% 20%;
+    --error-red: 0 84% 60%;
+    --success-green: 142 76% 50%;
+    --scattered-blue: 177 70% 65%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

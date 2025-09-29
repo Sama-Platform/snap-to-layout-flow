@@ -30,6 +30,13 @@ export default {
         "illustration-bg": "hsl(var(--illustration-bg))",
         "tag-bg": "hsl(var(--tag-bg))",
         "tag-text": "hsl(var(--tag-text))",
+        "problem-bg": "hsl(var(--problem-bg))",
+        "problem-border": "hsl(var(--problem-border))",
+        "solution-bg": "hsl(var(--solution-bg))",
+        "solution-border": "hsl(var(--solution-border))",
+        "error-red": "hsl(var(--error-red))",
+        "success-green": "hsl(var(--success-green))",
+        "scattered-blue": "hsl(var(--scattered-blue))",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
