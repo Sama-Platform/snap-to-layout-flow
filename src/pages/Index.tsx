@@ -4,6 +4,8 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import StoriesSection from "@/components/StoriesSection";
 import OpportunityEngineSection from "@/components/OpportunityEngineSection";
+import MovementSection from "@/components/MovementSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -15,7 +17,9 @@ const Index = () => {
         <FeaturesSection />
         <StoriesSection />
         <OpportunityEngineSection />
+        <MovementSection />
       </div>
+      <Footer />
     </div>
   );
 };
