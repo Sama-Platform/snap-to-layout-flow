@@ -55,29 +55,6 @@ const FeaturesSection = () => {
           })}
         </div>
 
-        {/* Bottom Headline */}
-        <div className="text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-hero-text">
-            From Small Town{" "}
-            <span className="relative">
-              <span className="text-hero-pink">Dreams</span>
-              <svg
-                className="absolute -bottom-1 left-0 w-full h-2"
-                viewBox="0 0 120 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2 6C30 3 60 2 118 4"
-                  stroke="hsl(var(--hero-pink))"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </span>
-            {" "}to Big City Breakthroughs
-          </h2>
-        </div>
       </div>
     </section>
   );
