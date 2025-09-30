@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/sama-social-logo.png";
+import { WAITLIST_URL } from "@/config/constants";
 
 const Header = () => {
   return (
@@ -8,8 +9,10 @@ const Header = () => {
         <img src={logo} alt="Sama Social" className="h-10" />
       </div>
       
-      <Button variant="hero" size="sm">
-        ✨ Join waitlist
+      <Button variant="hero" size="sm" asChild>
+        <a href={WAITLIST_URL} target="_blank" rel="noopener noreferrer">
+          ✨ Join sama
+        </a>
       </Button>
     </header>
   );

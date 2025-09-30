@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroIllustration from "@/assets/hero-illustration.png";
+import { WAITLIST_URL } from "@/config/constants";
 
 const HeroSection = () => {
   const categories = [
@@ -40,8 +41,10 @@ const HeroSection = () => {
             All in one place, curated for students like you
           </p>
 
-          <Button variant="hero" size="lg" className="group">
-            ✨ Join the Waitlist
+          <Button variant="hero" size="lg" className="group" asChild>
+            <a href={WAITLIST_URL} target="_blank" rel="noopener noreferrer">
+              ✨ Join sama
+            </a>
           </Button>
         </div>
 

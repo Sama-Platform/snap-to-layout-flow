@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { WAITLIST_URL } from "@/config/constants";
 
 const MovementSection = () => {
   return (
@@ -36,8 +37,10 @@ const MovementSection = () => {
         </div>
 
         {/* CTA Button */}
-        <Button variant="hero" size="lg" className="text-base">
-          ✨ Join the Waitlist
+        <Button variant="hero" size="lg" className="text-base" asChild>
+          <a href={WAITLIST_URL} target="_blank" rel="noopener noreferrer">
+            ✨ Join sama
+          </a>
         </Button>
       </div>
     </section>
