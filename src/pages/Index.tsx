@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import StoriesSection from "@/components/StoriesSection";
+import OpportunityEngineSection from "@/components/OpportunityEngineSection";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
         <ProblemSolutionSection />
         <FeaturesSection />
         <StoriesSection />
+        <OpportunityEngineSection />
       </div>
     </div>
   );
