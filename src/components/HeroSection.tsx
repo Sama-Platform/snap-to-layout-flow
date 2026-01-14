@@ -43,7 +43,7 @@ const HeroSection = () => {
 
           <Button variant="hero" size="lg" className="group" asChild>
             <a href={WAITLIST_URL} target="_blank" rel="noopener noreferrer">
-              ✨ Join sama
+              ✨ Join community
             </a>
           </Button>
         </div>

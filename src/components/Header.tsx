@@ -11,7 +11,7 @@ const Header = () => {
       
       <Button variant="hero" size="sm" asChild>
         <a href={WAITLIST_URL} target="_blank" rel="noopener noreferrer">
-          ✨ Join sama
+          ✨ Join community
         </a>
       </Button>
     </header>
