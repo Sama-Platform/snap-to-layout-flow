@@ -50,7 +50,7 @@ const OpportunityEngineSection = () => {
           {benefits.map((benefit, index) => {
             const IconComponent = benefit.icon;
             return (
-              <Card key={index} className="border-border hover:shadow-lg transition-shadow duration-300">
+              <Card key={index} className="border-border transition-all duration-300 hover:shadow-[0_0_30px_rgba(236,72,153,0.2)] hover:scale-105 cursor-pointer">
                 <CardHeader className="space-y-6">
                   <div className={`w-16 h-16 ${benefit.iconBg} rounded-full flex items-center justify-center`}>
                     <IconComponent className={`w-8 h-8 ${benefit.iconColor}`} />

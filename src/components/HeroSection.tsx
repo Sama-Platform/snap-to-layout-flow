@@ -50,7 +50,7 @@ const HeroSection = () => {
 
         {/* Right Illustration */}
         <div className="relative">
-          <div className="relative rounded-3xl overflow-hidden bg-illustration-bg p-8">
+          <div className="relative rounded-3xl overflow-hidden bg-illustration-bg p-8 transition-all duration-300 hover:shadow-[0_0_40px_rgba(94,234,212,0.5),0_0_60px_rgba(94,234,212,0.3)] hover:scale-105 cursor-pointer">
             <img
               src={heroIllustration}
               alt="Students collaborating on laptops and projects"

@@ -46,7 +46,7 @@ const ProblemSolutionSection = () => {
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Problem Card */}
           <div className="bg-problem-bg border border-problem-border rounded-3xl p-8">
-            <h3 className="text-2xl font-bold text-hero-pink mb-6">The Problem</h3>
+            <h3 className="text-2xl font-bold text-hero-pink mb-6">Problem</h3>
             
             <p className="text-hero-text mb-8 text-lg">
               Thousands of opportunities exist—scholarships, jobs, fellowships.
@@ -72,7 +72,7 @@ const ProblemSolutionSection = () => {
 
           {/* Solution Card */}
           <div className="bg-solution-bg border border-solution-border rounded-3xl p-8">
-            <h3 className="text-2xl font-bold text-hero-pink mb-6">The Solution</h3>
+            <h3 className="text-2xl font-bold text-hero-pink mb-6">We have solution</h3>
             
             <p className="text-hero-text mb-8 text-lg">
               That's where Sama Social comes in. We bring everything into one clear path for you.
